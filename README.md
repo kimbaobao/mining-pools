@@ -69,11 +69,11 @@ the exact same values for `name` and `link` in each new entry.
 For example:
 
 ```json
-"1FFxkVijzvUPUeHgkFjBk2Qw8j3wQY2cDw" : {
+"3PBDBn5AMmVM6yHEVAyhBY9BGrZhohqk5p" : {
     "name" : "Foundry USA",
     "link" : "https://foundrydigital.com/"
 },
-"12KKDt4Mj7N5UAkQMN7LtPZMayenXHa8KL" : {
+"3HQqrA4xRrX9bcLUECJXgumW6xcjzdQ1T5" : {
     "name" : "Foundry USA",
     "link" : "https://foundrydigital.com/"
 },
@@ -130,20 +130,20 @@ following (using today's `pools-v2.json` as reference):
 
 ```json
 // Original
-"1FFxkVijzvUPUeHgkFjBk2Qw8j3wQY2cDw" : {
+"3PBDBn5AMmVM6yHEVAyhBY9BGrZhohqk5p" : {
     "name" : "Foundry USA",
     "link" : "https://foundrydigital.com/"
 },
-"12KKDt4Mj7N5UAkQMN7LtPZMayenXHa8KL" : {
+"3HQqrA4xRrX9bcLUECJXgumW6xcjzdQ1T5" : {
     "name" : "Foundry USA",
     "link" : "https://foundrydigital.com/"
 },
 // Renamed
-"1FFxkVijzvUPUeHgkFjBk2Qw8j3wQY2cDw" : {
+"3PBDBn5AMmVM6yHEVAyhBY9BGrZhohqk5p" : {
     "name" : "Foundry Pool",
     "link" : "https://foundrydigital.com/"
 },
-"12KKDt4Mj7N5UAkQMN7LtPZMayenXHa8KL" : {
+"3HQqrA4xRrX9bcLUECJXgumW6xcjzdQ1T5" : {
     "name" : "Foundry Pool",
     "link" : "https://foundrydigital.com/"
 },
