@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "BlockFills",
-    "addresses": ["1PzVut5X6Nx7Mv4JHHKPtVM9Jr9LJ4Rbry"],
+    "addresses": ["1Hb7iC63bqxtt7X9oYr1VtDTE2Yk5xLQAU"],
     "tags": ["/BlockfillsPool/"],
     "link": "https://www.blockfills.com/mining"
   },
@@ -10,7 +10,7 @@
     "id": 2,
     "name": "ULTIMUSPOOL",
     "addresses": [
-      "1EMVSMe1VJUuqv7D7SFzctnVXk4KdjXATi",
+      "16B2KwsYpH7xP6uWx6Nt6fLeSYusshxdKt",
       "3C9sAKXrBVpJVe3b738yik4LPHpPmceBgd"
     ],
     "tags": ["/ultimus/"],
@@ -31,7 +31,7 @@
     "id": 4,
     "name": "Luxor",
     "addresses": [
-      "1MkCDCzHpBsYQivp8MxjY5AkTGG1f2baoe",
+      "1L1yBmEoaB5bZXaALUB35NEKTWM1VUqPRa",
       "39bitUyBcUu3y3hRTtYprKbTp712t4ZWqK"
     ],
     "tags": ["/LUXOR/", "Powered by Luxor Tech"],
@@ -41,8 +41,8 @@
     "id": 5,
     "name": "1THash",
     "addresses": [
-      "147SwRQdpCfj5p8PnfsXV2SsVVpVcz3aPq",
-      "15vgygQ7ZsWdvZpctmTZK4673QBHsos6Sh"
+      "1GWU64frh18rt3zXejp7hGMonP3afe1HWB",
+      "1Ej2GsfCTDEWkR8LhPJwELhHF8oA8KPyET"
     ],
     "tags": ["/1THash&58COIN/", "/1THash/"],
     "link": "https://www.1thash.top"
@@ -51,7 +51,7 @@
     "id": 6,
     "name": "BTC.com",
     "addresses": [
-      "1Bf9sZvBHPFGVPX71WX2njhd1NXKv5y7v5",
+      "1APDPZzsL951fprt265BZqBJpMQaMYsGFA",
       "34qkc2iac6RsyxZVfyE2S5U5WcRsbg2dpK",
       "3EhLZarJUNSfV6TWMZY1Nh5mi3FMsdHa5U",
       "3NA8hsjfdgVkmmVS9moHmkZsVCoLxUkvvv",
@@ -349,7 +349,7 @@
     "id": 44,
     "name": "AntPool",
     "addresses": [
-      "12dRugNcdxK39288NjcDV4GX7rMsKCGn6B",
+      "145rSuahrPQYNnaPjj3JyMLHSi34YATvCU",
       "15kiNKfDWsq7UsPg87UwxA8rVvWAjzRkYS",
       "16MdTdqmXusauybtXTmFEW4GNFPPgGxQYE",
       "16kUc5B48qnASbxeZTisCqTNx6G3DPXuKn",
@@ -365,7 +365,7 @@
       "1DDXyKUT6q3H9e5QXm2Gv6BNNWgztFG55g",
       "1DQaDTefKPjHz3beLuo8KHRZF9t2Sc6foP",
       "1Dek9ArRHb9tyWb9gaaX8SWmkfi5V7U5Y6",
-      "1DyR7HPQWjM6Zrnk7SzHVY2GEpXRGNNH9o",
+      "1NNpcznYvSZ7Jb9VTDY4E4Kokp9hstKX53",
       "1FdJkPdpXtK3t5utZHJAop3saLZWfPfgak",
       "1FrHkVsW7csAYYaRbUUcrKSmv91hcQnsqQ",
       "1GEG1JR81jvUXs7TMAuo3SPBHZrpJijcjt",
@@ -374,20 +374,20 @@
       "1Gp7iCzDGMZiV55Kt8uKsux6VyoHe1aJaN",
       "1H3u6R813MHGYhmGW6v86EYYriawRtACYD",
       "1H6ckqNWikmVT3wpN3X1BQ6b156Xc9nT2L",
-      "1JBVrhSSDrZrRmm4RnoWouqgGGqJMvWHi8",
-      "1JwUDWVSbAY5NeCBJhxQk1E8AfETfZuPj4",
+      "1APDPZzsL951fprt265BZqBJpMQaMYsGFA",
+      "112sKvFSn7nk5zwgqeCd6K5cGsuYKM1tDb",
       "1K8PNogxBZ6ts532DZnzxdbjgzJLjLdXqz",
-      "1KmgBTL7cFmFFYTD7HcdkMcZXRcTkh2WwS",
+      "1LksP4CGQhWUwhb5YzQdo1jyZTafjJieN2",
       "1LTGvTjDxiy5S9YcKEE9Lb7xSpZcPSqinw",
-      "1MiQrT5sEKTUGNMbd9WS3yPPkSjWdpYA2r",
+      "1GBwFhSYjH8RMgAxE8cZsQ8ZxJ2KdtZJgc",
       "1NS4gbx1G2D5rc9PnvVsPys12nKxGiQg72",
       "1Nh7uHdvY6fNwtQtM1G5EZAFPLC33B59rB",
-      "1Pzf7qT7bBGouvnjRvtRD8VhTyqjX1NrJT",
+      "1HuafTTGWkNanfgU3MYyYKnLGW7xrmo9xc",
       "1Sjj2cPC3rTWcSTEYDeu2f3BavLosog4T",
-      "1jLVpwtNMfXWaHY4eiLDmGuBxokYLgv1X",
+      "1JLia52MRWhYTBZPgD2uPZbdXkX49Wx8uz",
       "3FaYVQF6wCMUB9NCeRe4tUp1zZx8qqM7H1",
-      "bc1qqx6gl55r3etcvhdmq9u4xav3h676ewck56wdwd",
-      "bc1q6x0l6kcm66kejy963wnaa9ueafk8y9f4uqar6u"
+      "bc1qxr8wmzh0v8u72jt8r27vcketng8rxwtd2v4rnt",
+      "bc1qx84lg0wjgj80l25frc4utn3dyj3e4vk3f6jl50"
     ],
     "tags": ["/AntPool/", "Mined By AntPool", "Mined by AntPool"],
     "link": "https://www.antpool.com"
@@ -409,7 +409,7 @@
   {
     "id": 47,
     "name": "Cointerra",
-    "addresses": ["1BX5YoLwvqzvVwSrdD4dC32vbouHQn2tuF"],
+    "addresses": ["bc1quzwex077n8w5h34ekjehlyxcc9425lljaq4sla"],
     "tags": ["cointerra"],
     "link": "https://cointerra.com"
   },
@@ -444,7 +444,7 @@
   {
     "id": 52,
     "name": "BitClub",
-    "addresses": ["155fzsEBHy9Ri2bMQ8uuuR3tv1YzcDywd4"],
+    "addresses": ["16u2stMnmNwr4D3uErFzr4EjD5XCJgLhcC"],
     "tags": ["/BitClub Network/"],
     "link": "https://bitclubpool.com"
   },
@@ -514,14 +514,14 @@
   {
     "id": 61,
     "name": "8baochi",
-    "addresses": ["1Hk9gD8xMo2XBUhE73y5zXEM8xqgffTB5f"],
+    "addresses": ["16u2stMnmNwr4D3uErFzr4EjD5XCJgLhcC"],
     "tags": ["/八宝池 8baochi.com/"],
     "link": "https://8baochi.com"
   },
   {
     "id": 62,
     "name": "myBTCcoin Pool",
-    "addresses": ["151T7r1MhizzJV6dskzzUkUdr7V8JxV2Dx"],
+    "addresses": ["15g2jkr4whrtdn6pgC8ySuT4G5Yavsmjfs"],
     "tags": ["myBTCcoin Pool"],
     "link": "https://mybtccoin.com"
   },
