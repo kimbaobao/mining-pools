@@ -1,6 +1,6 @@
-# Fractal Bitcoin Mining Pools
+# Bitcoin Mining Pools
 
-Mining pools definition used on https://mempool.fractalbitcoin.io/graphs/mining/pools
+Mining pools definition used on https://mempool.space/graphs/mining/pools
 
 # Contributing
 
@@ -10,7 +10,7 @@ Contributions welcome. All changes must be applied in `pools-v2.json` file.
 
 Regardless of the choosen method, we recommend adding a appropriate slug to each
 new mining pool you add to `pools-v2.json`. The slug will be used as a unique tag for
-the mining pool, for example in the public facing urls like https://mempool.fractalbitcoin.io/mining/pool/fairpool (here `fairpool` is the slug).
+the mining pool, for example in the public facing urls like https://mempool.space/graphs/mining/pools (here `btcpool` is the slug).
 
 You can specify mining pool slugs in the `slugs` object in `pools-v2.json`. If you
 don't specify one, we will automatically generate one [as such](https://github.com/mempool/mempool/blob/02820b0e6836c4202c2e346195e8aace357e3483/backend/src/api/pools-parser.ts#L106-L110).
@@ -69,11 +69,11 @@ the exact same values for `name` and `link` in each new entry.
 For example:
 
 ```json
-"1FFxkVijzvUPUeHgkFjBk2Qw8j3wQY2cDw" : {
+"1Hb7iC63bqxtt7X9oYr1VtDTE2Yk5xLQAU" : {
     "name" : "Foundry USA",
     "link" : "https://foundrydigital.com/"
 },
-"12KKDt4Mj7N5UAkQMN7LtPZMayenXHa8KL" : {
+"112sKvFSn7nk5zwgqeCd6K5cGsuYKM1tDb" : {
     "name" : "Foundry USA",
     "link" : "https://foundrydigital.com/"
 },
@@ -130,20 +130,20 @@ following (using today's `pools-v2.json` as reference):
 
 ```json
 // Original
-"1FFxkVijzvUPUeHgkFjBk2Qw8j3wQY2cDw" : {
+"1Hb7iC63bqxtt7X9oYr1VtDTE2Yk5xLQAU" : {
     "name" : "Foundry USA",
     "link" : "https://foundrydigital.com/"
 },
-"12KKDt4Mj7N5UAkQMN7LtPZMayenXHa8KL" : {
+"112sKvFSn7nk5zwgqeCd6K5cGsuYKM1tDb" : {
     "name" : "Foundry USA",
     "link" : "https://foundrydigital.com/"
 },
 // Renamed
-"1FFxkVijzvUPUeHgkFjBk2Qw8j3wQY2cDw" : {
+"1Hb7iC63bqxtt7X9oYr1VtDTE2Yk5xLQAU" : {
     "name" : "Foundry Pool",
     "link" : "https://foundrydigital.com/"
 },
-"12KKDt4Mj7N5UAkQMN7LtPZMayenXHa8KL" : {
+"112sKvFSn7nk5zwgqeCd6K5cGsuYKM1tDb" : {
     "name" : "Foundry Pool",
     "link" : "https://foundrydigital.com/"
 },
@@ -186,14 +186,14 @@ the latest mining pool data.
 ## Mining pool definition
 
 When the mempool backend starts, we automatically fetch the latest `pools-v2.json`
-version from github. By default the url points to https://github.com/fractal-bitcoin/mining-pools/blob/fractal/pools-v2.json but you can configure it to points to another repo by setting
+version from github. By default the url points to [https://github.com/kimbaobao/mining-pools/bitcoin/DienLong-POOL/v2.json](https://raw.githubusercontent.com/fractal-bitcoin/mining-pools/fractal/pools-v2.json) but you can configure it to points to another repo by setting
 the following backend variables:
 
 ```
 {
   "MEMPOOL": {
     'POOLS_JSON_URL': 'https://raw.githubusercontent.com/fractal-bitcoin/mining-pools/fractal/pools-v2.json',
-    'POOLS_JSON_TREE_URL': 'https://api.github.com/repos/fractal-bitcoin/mining-pools/git/trees/fractal'
+    'POOLS_JSON_TREE_URL': 'https://api.github.com/repos/bitcoin/mining-pools/git/trees/bitcoin'
   }
 }
 ```
