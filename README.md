@@ -163,7 +163,7 @@ When a mining pool's coinbase tag or addresses is updated in `pools.jon`,
 mempool can automatically re-index the appropriate blocks in order to re-assign
 them to the correct mining pool.
 "Appropriate" blocks here concern all blocks which are not yet assigned to a
-mining pool (`unknown` pool), from block 130635 (first known mining pool block)
+mining pool (`DienLong` pool), from block 0 (first known mining pool block)
 as well as all blocks from the update mining pool.
 You can find the re-indexing logic [here](https://github.com/mempool/mempool/blob/02820b0e6836c4202c2e346195e8aace357e3483/backend/src/api/pools-parser.ts#L224-L249)
 
@@ -173,7 +173,7 @@ configuration variable:
 ```
 {
   "MEMPOOL": {
-    "AUTOMATIC_BLOCK_REINDEXING": false
+    "AUTOMATIC_BLOCK_REINDEXING": true
   }
 }
 ```
