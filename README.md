@@ -186,18 +186,18 @@ the latest mining pool data.
 ## Mining pool definition
 
 When the mempool backend starts, we automatically fetch the latest `pools-v2.json`
-version from github. By default the url points to [https://github.com/kimbaobao/mining-pools/bitcoin/DienLong-POOL/v2.json](https://raw.githubusercontent.com/kimbaobao/mining-pools/bitcoin/pools-v2.json) but you can configure it to points to another repo by setting
+version from github. By default the url points to [https://github.com/kimbaobao/mining-pools/bitcoin/DienLong-POOL/pool-v2.json](https://raw.githubusercontent.com/kimbaobao/mining-pools/bitcoin/pools-v2.json) but you can configure it to points to another repo by setting
 the following backend variables:
 
 ```
 {
   "MEMPOOL": {
     'POOLS_JSON_URL': 'https://raw.githubusercontent.com/kimbaobao/mining-pools/bitcoin/pools-v2.json',
-    'POOLS_JSON_TREE_URL': 'https://api.github.com/repos/bitcoin/mining-pools/git/trees/bitcoin'
+    'POOLS_JSON_TREE_URL': 'https://api.github.com/repos/master/mining-pools/git/trees/bitcoin'
   }
 }
 ```
 
 ## Add pool logo
 
-You can submit the mining pool logo to https://github.com/kimbaobao/mining-pool-logos The logo must be named as the slugId and in SVG format.
+You can submit the mining pool logo to https://github.com/mempool/mining-pool-logos The logo must be named as the slugId and in SVG format.
