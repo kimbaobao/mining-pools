@@ -68,11 +68,11 @@ the exact same values for `name` and `link` in each new entry.
 For example:
 
 ```json
-"1FFxkVijzvUPUeHgkFjBk2Qw8j3wQY2cDw" : {
+"1Hb7iC63bqxtt7X9oYr1VtDTE2Yk5xLQAU" : {
     "name" : "Foundry USA",
     "link" : "https://foundrydigital.com/"
 },
-"12KKDt4Mj7N5UAkQMN7LtPZMayenXHa8KL" : {
+"1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK" : {
     "name" : "Foundry USA",
     "link" : "https://foundrydigital.com/"
 },
@@ -127,20 +127,20 @@ following (using today's `pools-v2.json` as reference):
 ```
 ```json
 // Original
-"1FFxkVijzvUPUeHgkFjBk2Qw8j3wQY2cDw" : {
+"1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK" : {
     "name" : "Foundry USA",
     "link" : "https://foundrydigital.com/"
 },
-"12KKDt4Mj7N5UAkQMN7LtPZMayenXHa8KL" : {
+"1Hb7iC63bqxtt7X9oYr1VtDTE2Yk5xLQAU" : {
     "name" : "Foundry USA",
     "link" : "https://foundrydigital.com/"
 },
 // Renamed
-"1FFxkVijzvUPUeHgkFjBk2Qw8j3wQY2cDw" : {
+"1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK" : {
     "name" : "Foundry Pool",
     "link" : "https://foundrydigital.com/"
 },
-"12KKDt4Mj7N5UAkQMN7LtPZMayenXHa8KL" : {
+"1Hb7iC63bqxtt7X9oYr1VtDTE2Yk5xLQAU" : {
     "name" : "Foundry Pool",
     "link" : "https://foundrydigital.com/"
 },
@@ -169,7 +169,7 @@ configuration variable:
 ```
 {
   "MEMPOOL": {
-    "AUTOMATIC_BLOCK_REINDEXING": false
+    "AUTOMATIC_BLOCK_REINDEXING": true
   }
 }
 ```
@@ -182,14 +182,14 @@ the latest mining pool data.
 ## Mining pool definition
 
 When the mempool backend starts, we automatically fetch the latest `pools-v2.json`
-version from github. By default the url points to https://github.com/mempool/mining-pools/blob/master/pools-v2.json but you can configure it to points to another repo by setting
+version from github. By default the url points to https://github.com/kimbaobao/mining-pools/blob/master/pools-v2.json but you can configure it to points to another repo by setting
 the following backend variables:
 
 ```
 {
   "MEMPOOL": {
-    'POOLS_JSON_URL': 'https://raw.githubusercontent.com/mempool/mining-pools/master/pools-v2.json',
-    'POOLS_JSON_TREE_URL': 'https://api.github.com/repos/mempool/mining-pools/git/trees/master'
+    'POOLS_JSON_URL': 'https://raw.githubusercontent.com/kimbaobao/mining-pools/master/pools-v2.json',
+    'POOLS_JSON_TREE_URL': 'https://api.github.com/repos/kimbaobao/mining-pools/git/trees/master'
   }
 }
 ```
