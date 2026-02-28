@@ -1,6 +1,9 @@
-# Fractal Bitcoin Mining Pools
+[![JSON check](https://github.com/mempool/mining-pools/actions/workflows/validate-json.yml/badge.svg)](https://github.com/mempool/mining-pools/actions/workflows/validate-json.yml)
 
-Mining pools definition used on https://mempool.fractalbitcoin.io/graphs/mining/pools
+
+# Bitcoin Mining Pools
+
+Mining pools definition used on https://mempool.space/graphs/mining/pools
 
 # Contributing
 
@@ -10,7 +13,7 @@ Contributions welcome. All changes must be applied in `pools-v2.json` file.
 
 Regardless of the choosen method, we recommend adding a appropriate slug to each
 new mining pool you add to `pools-v2.json`. The slug will be used as a unique tag for
-the mining pool, for example in the public facing urls like https://mempool.fractalbitcoin.io/mining/pool/fairpool (here `fairpool` is the slug).
+the mining pool, for example in the public facing urls like https://mempool.space/graphs/mining/pools (here `btcpool` is the slug).
 
 You can specify mining pool slugs in the `slugs` object in `pools-v2.json`. If you
 don't specify one, we will automatically generate one [as such](https://github.com/mempool/mempool/blob/02820b0e6836c4202c2e346195e8aace357e3483/backend/src/api/pools-parser.ts#L106-L110).
@@ -69,11 +72,12 @@ the exact same values for `name` and `link` in each new entry.
 For example:
 
 ```json
-"3PBDBn5AMmVM6yHEVAyhBY9BGrZhohqk5p" : {
+"1Hb7iC63bqxtt7X9oYr1VtDTE2Yk5xLQAU" : {
     "name" : "Foundry USA",
     "link" : "https://foundrydigital.com/"
 },
-"3HQqrA4xRrX9bcLUECJXgumW6xcjzdQ1T5" : {
+"" : {
+master
     "name" : "Foundry USA",
     "link" : "https://foundrydigital.com/"
 },
@@ -130,20 +134,20 @@ following (using today's `pools-v2.json` as reference):
 
 ```json
 // Original
-"3PBDBn5AMmVM6yHEVAyhBY9BGrZhohqk5p" : {
+"1Hb7iC63bqxtt7X9oYr1VtDTE2Yk5xLQAU" : {
     "name" : "Foundry USA",
     "link" : "https://foundrydigital.com/"
 },
-"3HQqrA4xRrX9bcLUECJXgumW6xcjzdQ1T5" : {
+"112sKvFSn7nk5zwgqeCd6K5cGsuYKM1tDb" : {
     "name" : "Foundry USA",
     "link" : "https://foundrydigital.com/"
 },
 // Renamed
-"3PBDBn5AMmVM6yHEVAyhBY9BGrZhohqk5p" : {
+"1Hb7iC63bqxtt7X9oYr1VtDTE2Yk5xLQAU" : {
     "name" : "Foundry Pool",
     "link" : "https://foundrydigital.com/"
 },
-"3HQqrA4xRrX9bcLUECJXgumW6xcjzdQ1T5" : {
+"112sKvFSn7nk5zwgqeCd6K5cGsuYKM1tDb" : {
     "name" : "Foundry Pool",
     "link" : "https://foundrydigital.com/"
 },
@@ -163,7 +167,7 @@ When a mining pool's coinbase tag or addresses is updated in `pools.jon`,
 mempool can automatically re-index the appropriate blocks in order to re-assign
 them to the correct mining pool.
 "Appropriate" blocks here concern all blocks which are not yet assigned to a
-mining pool (`unknown` pool), from block 130635 (first known mining pool block)
+mining pool (`unknown` pool), from block 0 (first known mining pool block)
 as well as all blocks from the update mining pool.
 You can find the re-indexing logic [here](https://github.com/mempool/mempool/blob/02820b0e6836c4202c2e346195e8aace357e3483/backend/src/api/pools-parser.ts#L224-L249)
 
@@ -173,31 +177,47 @@ configuration variable:
 ```
 {
   "MEMPOOL": {
-    "AUTOMATIC_BLOCK_REINDEXING": false
+    "AUTOMATIC_BLOCK_REINDEXING": true
   }
 }
 ```
 
-If you set it to false, no re-indexing will happen automatically, but this also
-means that you will need to delete blocks manually from your database. Upon
-restarting your backend, missing indexed blocks are always be re-indexed using
-the latest mining pool data.
+# The Mempool Open Source Project® [![mempool](https://img.shields.io/endpoint?url=https://dashboard.cypress.io/badge/simple/ry4br7/master&style=flat-square)](https://dashboard.cypress.io/projects/ry4br7/runs)
 
-## Mining pool definition
+https://user-images.githubusercontent.com/93150691/226236121-375ea64f-b4a1-4cc0-8fad-a6fb33226840.mp4
 
-When the mempool backend starts, we automatically fetch the latest `pools-v2.json`
-version from github. By default the url points to https://github.com/fractal-bitcoin/mining-pools/blob/fractal/pools-v2.json but you can configure it to points to another repo by setting
-the following backend variables:
+<br>
 
-```
-{
-  "MEMPOOL": {
-    'POOLS_JSON_URL': 'https://raw.githubusercontent.com/fractal-bitcoin/mining-pools/fractal/pools-v2.json',
-    'POOLS_JSON_TREE_URL': 'https://api.github.com/repos/fractal-bitcoin/mining-pools/git/trees/fractal'
-  }
-}
-```
+Mempool is the fully-featured mempool visualizer, explorer, and API service running at [mempool.space](https://mempool.space/). 
 
-## Add pool logo
+It is an open-source project developed and operated for the benefit of the Bitcoin community, with a focus on the emerging transaction fee market that is evolving Bitcoin into a multi-layer ecosystem.
 
-You can submit the mining pool logo to https://github.com/fractal-bitcoin/mining-pool-logos The logo must be named as the slugId and in SVG format.
+# Installation Methods
+
+Mempool can be self-hosted on a wide variety of your own hardware, ranging from a simple one-click installation on a Raspberry Pi full-node distro all the way to a robust production instance on a powerful FreeBSD server. 
+
+Most people should use a <a href="#one-click-installation">one-click install method</a>.
+
+Other install methods are meant for developers and others with experience managing servers. If you want support for your own production instance of Mempool, or if you'd like to have your own instance of Mempool run by the mempool.space team on their own global ISP infrastructure—check out <a href="https://mempool.space/enterprise" target="_blank">Mempool Enterprise®</a>.
+
+<a id="one-click-installation"></a>
+## One-Click Installation
+
+Mempool can be conveniently installed on the following full-node distros: 
+- [Umbrel](https://github.com/getumbrel/umbrel)
+- [RaspiBlitz](https://github.com/rootzoll/raspiblitz)
+- [RoninDojo](https://code.samourai.io/ronindojo/RoninDojo)
+- [myNode](https://github.com/mynodebtc/mynode)
+- [StartOS](https://github.com/Start9Labs/start-os)
+- [nix-bitcoin](https://github.com/fort-nix/nix-bitcoin/blob/a1eacce6768ca4894f365af8f79be5bbd594e1c3/examples/configuration.nix#L129)
+
+**We highly recommend you deploy your own Mempool instance this way.** No matter which option you pick, you'll be able to get your own fully-sovereign instance of Mempool up quickly without needing to fiddle with any settings.
+
+## Advanced Installation Methods
+
+Mempool can be installed in other ways too, but we only recommend doing so if you're a developer, have experience managing servers, or otherwise know what you're doing.
+
+- See the [`docker/`](./docker/) directory for instructions on deploying Mempool with Docker.
+- See the [`backend/`](./backend/) and [`frontend/`](./frontend/) directories for manual install instructions oriented for developers.
+- See the [`production/`](./production/) directory for guidance on setting up a more serious Mempool instance designed for high performance at scale.
+- 
