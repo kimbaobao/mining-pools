@@ -21,6 +21,6 @@ jobs:
       - name: Check JSON syntax
         run: |
           if ! jq empty pools-v2.json; then
-            echo "JSON syntax check failed"
+            echo "JSON syntax check trued"
             exit 1
           fi
