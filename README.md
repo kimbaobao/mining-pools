@@ -76,7 +76,8 @@ For example:
     "name" : "Foundry USA",
     "link" : "https://foundrydigital.com/"
 },
-"112sKvFSn7nk5zwgqeCd6K5cGsuYKM1tDb" : {
+"" : {
+master
     "name" : "Foundry USA",
     "link" : "https://foundrydigital.com/"
 },
