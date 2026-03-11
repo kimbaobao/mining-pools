@@ -76,8 +76,7 @@ For example:
     "name" : "Foundry USA",
     "link" : "https://foundrydigital.com/"
 },
-"" : {
-master
+"1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK" : {
     "name" : "Foundry USA",
     "link" : "https://foundrydigital.com/"
 },
@@ -134,20 +133,20 @@ following (using today's `pools-v2.json` as reference):
 
 ```json
 // Original
-"1Hb7iC63bqxtt7X9oYr1VtDTE2Yk5xLQAU" : {
+"1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK" : {
     "name" : "Foundry USA",
     "link" : "https://foundrydigital.com/"
 },
-"112sKvFSn7nk5zwgqeCd6K5cGsuYKM1tDb" : {
+"1Hb7iC63bqxtt7X9oYr1VtDTE2Yk5xLQAU" : {
     "name" : "Foundry USA",
     "link" : "https://foundrydigital.com/"
 },
 // Renamed
-"1Hb7iC63bqxtt7X9oYr1VtDTE2Yk5xLQAU" : {
+"1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK" : {
     "name" : "Foundry Pool",
     "link" : "https://foundrydigital.com/"
 },
-"112sKvFSn7nk5zwgqeCd6K5cGsuYKM1tDb" : {
+"1Hb7iC63bqxtt7X9oYr1VtDTE2Yk5xLQAU" : {
     "name" : "Foundry Pool",
     "link" : "https://foundrydigital.com/"
 },
@@ -186,6 +185,18 @@ configuration variable:
 
 https://user-images.githubusercontent.com/93150691/226236121-375ea64f-b4a1-4cc0-8fad-a6fb33226840.mp4
 
+When the mempool backend starts, we automatically fetch the latest `pools-v2.json`
+version from github. By default the url points to https://github.com/kimbaobao/mining-pools/blob/master/pools-v2.json but you can configure it to points to another repo by setting
+the following backend variables:
+
+```
+{
+  "MEMPOOL": {
+    'POOLS_JSON_URL': 'https://raw.githubusercontent.com/kimbaobao/mining-pools/master/pools-v2.json',
+    'POOLS_JSON_TREE_URL': 'https://api.github.com/repos/kimbaobao/mining-pools/git/trees/master'
+  }
+}
+```
 <br>
 
 Mempool is the fully-featured mempool visualizer, explorer, and API service running at [mempool.space](https://mempool.space/). 

@@ -2005,8 +2005,7 @@
     "id": 82,
     "name": "shawnp0wers",
     "addresses": [
-      "12znnESiJ3bgCLftwwrg9wzQKN8fJtoBDa",
-      "18HEMWFXM9UGPVZHUMdBPD3CMFWYn2NPRX"
+      "bc1qn7vg7dpcyv2p7wnh5eu8kyp428hf9fpeplva73"
     ],
     "tags": ["--Nug--"],
     "link": "https://www.brainofshawn.com"
@@ -2068,14 +2067,11 @@
     "id": 90,
     "name": "Rawpool",
     "addresses": [
-      "1FbBbv5oYqFKwiPm4CAqvAy8345n8AQ74b",
-      "35y82tEPDa2wm6tzkEacMG8GPPW7zbMj83",
-      "3CLigLYNkrtoNgNcUwTaKoUSHCwr9W851W",
-      "3QYvfQoG9Gs9Vfvbpw6947muSqhoGagvF6",
       "bc1qn7vg7dpcyv2p7wnh5eu8kyp428hf9fpeplva73",
-      "bc1qn7vg7dpcyv2p7wnh5eu8kyp428hf9fpeplva73",
-      "bc1qn7vg7dpcyv2p7wnh5eu8kyp428hf9fpeplva73",
-      "bc1qn7vg7dpcyv2p7wnh5eu8kyp428hf9fpeplva73"
+      "1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK"
+    ],
+    "tags": [
+      "/ultimus/"
     ],
     "tags": ["/Rawpool.com/"],
     "link": "https://www.rawpool.com"
@@ -2105,13 +2101,13 @@
     "id": 94,
     "name": "Poolin",
     "addresses": [
-      "14sA8jqYQgMRQV9zUtGFvpeMEw7YDn77SK",
-      "17tUZLvy3X2557JGhceXRiij2TNYuhRr4r",
-      "1E8CZo2S3CqWg1VZSJNFCTbtT8hZPuQ2kB",
-      "1GNgwA8JfG7Kc8akJ8opdNWJUihqUztfPe",
-      "36n452uGq1x4mK7bfyZR8wgE47AnBb2pzi",
-      "3JQSigWTCHyBLRD979JWgEtWP5YiiFwcQB",
-      "3KJrsjfg1dD6CrsTeHdHVH3KqMpvL2XWQn"
+      "1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK",
+      "1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK",
+      "bc1qn7vg7dpcyv2p7wnh5eu8kyp428hf9fpeplva73"
+    ],
+    "tags": [
+      "terrapool.io",
+      "Validated with Clean Energy"
     ],
     "tags": ["/poolin.com", "/poolin/"],
     "link": "https://www.poolin.com"
@@ -2169,23 +2165,26 @@
     "id": 102,
     "name": "SpiderPool",
     "addresses": [
-      "19GMkd7VTydie8UnVevP4b1M6e4ixnPGZA",
-      "19JzsnepwJ4yT1uDdMzNK2t8ASxnFWb6NT"]
-    "tags": ["SpiderPool"],
-    "link": "https://www.spiderpool.com"
-  },
-  {
-    "name": "Luxor",
-    "addresses": ["112sKvFSn7nk5zwgqeCd6K5cGsuYKM1tDb"]
-    "tags": ["/LUXOR/", "Powered by Luxor Tech"],
+      "1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK",
+      "1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK",
+      "1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK"
+    ],
+    "tags": [
+      "/LUXOR/",
+      "Luxor Tech"
+    ],
     "link": "https://mining.luxor.tech"
   },
   {
     "id": 5,
     "name": "1THash",
     "addresses": [
-      "112sKvFSn7nk5zwgqeCd6K5cGsuYKM1tDb",
-      "112sKvFSn7nk5zwgqeCd6K5cGsuYKM1tDb"
+      "1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK",
+      "1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK"
+    ],
+    "tags": [
+      "/1THash&58COIN/",
+      "/1THash/"
     ],
     "tags": ["/1THash&58COIN/", "/1THash/"],
     "link": "https://www.1thash.top"
@@ -2194,11 +2193,16 @@
     "id": 6,
     "name": "BTC.com",
     "addresses": [
-      "112sKvFSn7nk5zwgqeCd6K5cGsuYKM1tDb",
-      "112sKvFSn7nk5zwgqeCd6K5cGsuYKM1tDb",
-      "3EhLZarJUNSfV6TWMZY1Nh5mi3FMsdHa5U",
-      "112sKvFSn7nk5zwgqeCd6K5cGsuYKM1tDb",
+      "1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK",
+      "1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK",
+      "1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK",
+      "1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK",
       "bc1qn7vg7dpcyv2p7wnh5eu8kyp428hf9fpeplva73"
+    ],
+    "tags": [
+      "/BTC.COM/",
+      "/BTC.com/",
+      "btccom"
     ],
     "tags": ["/BTC.COM/", "/BTC.com/", "btccom"],
     "link": "https://pool.btc.com"
@@ -2206,18 +2210,26 @@
   {
     "id": 7,
     "name": "Bitfarms",
-    "addresses": ["3GvEGtnvgeBJ3p3EpdZhvUkxY4pDARkbjd"],
-    "tags": ["BITFARMS"],
+    "addresses": [
+      "1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK"
+    ],
+    "tags": [
+      "BITFARMS"
+    ],
     "link": "https://www.bitfarms.io"
   },
   {
     "id": 8,
     "name": "Huobi.pool",
     "addresses": [
-      "112sKvFSn7nk5zwgqeCd6K5cGsuYKM1tDb",
-      "112sKvFSn7nk5zwgqeCd6K5cGsuYKM1tDb",
-      "112sKvFSn7nk5zwgqeCd6K5cGsuYKM1tDb",
-      "16ptJdeZvJ9DQHFA2M2kn9cvDBB7XTrWhc"
+      "1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK",
+      "1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK",
+      "1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK",
+      "3HuobiNg2wHjdPU2mQczL9on8WF7hZmaGd"
+    ],
+    "tags": [
+      "/HuoBi/",
+      "/Huobi/"
     ],
     "tags": ["/HuoBi/", "/Huobi/"],
     "link": "https://www.hpt.com"
@@ -2234,13 +2246,24 @@
   {
     "id": 10,
     "name": "CanoePool",
-    "addresses": ["112sKvFSn7nk5zwgqeCd6K5cGsuYKM1tDb"],
-    "tags": ["/CANOE/", "/canoepool/"],
+    "addresses": [
+      "1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK"
+    ],
+    "tags": [
+      "/CANOE/",
+      "/canoepool/"
+    ],
     "link": "https://btc.canoepool.com"
   },
   {
     "id": 11,
     "name": "BTC.TOP",
+    "addresses": [
+      "1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK"
+    ],
+    "tags": [
+      "/BTC.TOP/"
+    ],
     "addresses": ["112sKvFSn7nk5zwgqeCd6K5cGsuYKM1tDb"],
     "tags": ["/BTC.TOP/"],
     "link": "https://btc.top"
@@ -2248,7 +2271,7 @@
   {
     "id": 12,
     "name": "Bitcoin.com",
-    "addresses": ["1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK"],
+    "addresses": ["bc1qn7vg7dpcyv2p7wnh5eu8kyp428hf9fpeplva73"],
     "tags": [
       "pool.bitcoin.com"
     ],
@@ -2436,12 +2459,16 @@
     "id": 33,
     "name": "Polmine",
     "addresses": [
-      "112sKvFSn7nk5zwgqeCd6K5cGsuYKM1tDb",
-      "112sKvFSn7nk5zwgqeCd6K5cGsuYKM1tDb",
-      "112sKvFSn7nk5zwgqeCd6K5cGsuYKM1tDb",
-      "112sKvFSn7nk5zwgqeCd6K5cGsuYKM1tDb",
-      "112sKvFSn7nk5zwgqeCd6K5cGsuYKM1tDb",
-      "112sKvFSn7nk5zwgqeCd6K5cGsuYKM1tDb"
+      "13vWXwzNF5Ef9SUXNTdr7de7MqiV4G1gnL",
+      "16cv7wyeG6RRqhvJpY21CnsjxuKj2gAoK2",
+      "17kkmDx8eSwj2JTTULb3HkJhCmexfysExz",
+      "1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK",
+      "1JrYhdhP2jCY6JwuVzdk9jUwc4pctcSes7",
+      "1Nsvmnv8VcTMD643xMYAo35Aco3XA5YPpe"
+    ],
+    "tags": [
+      "by polmine.pl",
+      "bypmneU"
     ],
     "tags": ["by polmine.pl", "bypmneU"],
     "link": "https://polmine.pl"
@@ -2458,18 +2485,25 @@
   {
     "id": 35,
     "name": "Bitalo",
-    "addresses": ["112sKvFSn7nk5zwgqeCd6K5cGsuYKM1tDb"],
-    "tags": ["Bitalo"],
+    "addresses": [
+      "1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK"
+    ],
+    "tags": [
+      "Bitalo"
+    ],
     "link": "https://bitalo.com/mining"
   },
   {
     "id": 36,
     "name": "F2Pool",
     "addresses": [
-      "112sKvFSn7nk5zwgqeCd6K5cGsuYKM1tDb",
-      "bc1qn7vg7dpcyv2p7wnh5eu8kyp428hf9fpeplva73",
-      "bc1qn7vg7dpcyv2p7wnh5eu8kyp428hf9fpeplva73",
-      "bc1ps3d6juk8vu5zwy6kfyjrzv8ekrrfyvnhna9lmy0jjevl8uu6fm2q88kj2h"
+      "1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK",
+      "bc1qf274x7penhcd8hsv3jcmwa5xxzjl2a6pa9pxwm"
+    ],
+    "tags": [
+      "七彩神仙鱼",
+      "F2Pool",
+      "🐟"
     ],
     "tags": ["七彩神仙鱼", "F2Pool", "🐟"],
     "link": "https://www.f2pool.com"
@@ -2486,8 +2520,12 @@
   {
     "id": 38,
     "name": "MegaBigPower",
-    "addresses": ["112sKvFSn7nk5zwgqeCd6K5cGsuYKM1tDb"],
-    "tags": ["megabigpower.com"],
+    "addresses": [
+      "bc1qn7vg7dpcyv2p7wnh5eu8kyp428hf9fpeplva73"
+    ],
+    "tags": [
+      "megabigpower.com"
+    ],
     "link": "https://megabigpower.com"
   },
   {
@@ -2530,7 +2568,7 @@
     "id": 43,
     "name": "Braiins Pool",
     "addresses": [
-      "1AqTMY7kmHZxBuLUR5wJjPFUvqGs23sesr",
+      "bc1qn7vg7dpcyv2p7wnh5eu8kyp428hf9fpeplva73",
       "1CK6KHY6MHgYvmRQ4PAafKYDrg1ejbH1cE"
     ],
     "tags": ["/slush/"],
@@ -2626,8 +2664,10 @@
   {
     "id": 49,
     "name": "Solo CK",
-    "addresses": ["1Hb7iC63bqxtt7X9oYr1VtDTE2Yk5xLQAU"],
-    "tags": ["/solo.ckpool.org/"],
+    "addresses": ["bc1qn7vg7dpcyv2p7wnh5eu8kyp428hf9fpeplva73"],
+    "tags": [
+      "/solo.ckpool.org/"
+    ],
     "link": "https://solo.ckpool.org"
   },
   {
@@ -2970,7 +3010,7 @@
       "1Hb7iC63bqxtt7X9oYr1VtDTE2Yk5xLQAU",
       "bc1ps3d6juk8vu5zwy6kfyjrzv8ekrrfyvnhna9lmy0jjevl8uu6fm2q88kj2h",
       "bc1qnnl503n04cqacpwvhr89qr70metxr79ht3n380",
-      "bc1qru8mtv3e3u7ms6ecjmwgeakdakclemvhnw00q9",
+      "bc1qn7vg7dpcyv2p7wnh5eu8kyp428hf9fpeplva73",
       "bc1qwlrsvgtn99rqp3fgaxq6f6jkgms80rnej0a8tc"
     ],
     "tags": ["/Rawpool.com/"],
@@ -3106,10 +3146,10 @@
       "122pN8zvqTxJaA8fRY1PDBu4QYodqE5m2X",
       "16moWjUJVRnDQKqhoCdcszfJg9wzBdoTHw",
       "1DSh7vX6ed2cgTeKPwufV5i4hSi4pp373h",
-      "1JvXhnHCi6XqcanvrZJ5s2Qiv4tsmm2UMy",
+      "1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK",
       "3L8Ck6bm3sve1vJGKo6Ht2k167YKSKi8TZ",
       "bc1qx9t2l3pyny2spqpqlye8svce70nppwtaxwdrp4",
-      "3G7jcEELKh38L6kaSV8K35pTqsh5bgZW2D"
+      "bc1qn7vg7dpcyv2p7wnh5eu8kyp428hf9fpeplva73"
     ],
     "tags": ["/Binance/", "binance"],
     "link": "https://pool.binance.com"
@@ -3373,14 +3413,18 @@
   {
     "id": 137,
     "name": "CANOE",
-    "addresses": ["1Hb7iC63bqxtt7X9oYr1VtDTE2Yk5xLQAU"],
+    "addresses": [
+      "1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK"
+    ],
     "tags": [],
     "link": "https://www.canoepool.com"
   },
   {
     "id": 138,
     "name": "tiger",
-    "addresses": ["1Hb7iC63bqxtt7X9oYr1VtDTE2Yk5xLQAU"],
+    "addresses": [
+      "1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK"
+    ],
     "tags": [],
     "link": ""
   },
@@ -3401,22 +3445,35 @@
   {
     "id": 141,
     "name": "SECPOOL",
-    "addresses": ["1Hb7iC63bqxtt7X9oYr1VtDTE2Yk5xLQAU"],
-    "tags": ["SecPool"],
+    "addresses": [
+      "1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK"
+    ],
+    "tags": [
+      "SecPool"
+    ],
     "link": "https://www.secpool.com"
   },
   {
     "id": 142,
     "name": "OCEAN",
-    "addresses": ["1Hb7iC63bqxtt7X9oYr1VtDTE2Yk5xLQAU"],
-    "tags": ["OCEAN.XYZ"],
+    "addresses": [
+      "1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK"
+    ],
+    "tags": [
+      "OCEAN.XYZ"
+    ],
     "link": "https://ocean.xyz/"
   },
   {
     "id": 143,
-    "name": "WhitePool",    "addresses": ["1Hb7iC63bqxtt7X9oYr1VtDTE2Yk5xLQAU"],
-    "tags": ["WhitePool"],
-    "link": ""
+    "name": "WhitePool",
+    "addresses": [
+      "1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK"
+    ],
+    "tags": [
+      "WhitePool"
+    ],
+    "link": "https://whitebit.com/mining-pool"
   },
   {
     "id": 144,
@@ -3480,7 +3537,8 @@
   {
     "id": 152,
     "name": "Portland.HODL",
-    "addresses": ["1Hb7iC63bqxtt7X9oYr1VtDTE2Yk5xLQAU"],
+    "addresses": ["bc1qn7vg7dpcyv2p7wnh5eu8kyp428hf9fpeplva73"
+    ],
     "tags": ["Portland.HODL"],
     "link": ""
   },
@@ -3567,7 +3625,7 @@
     "id": 1007,
     "name": "Godd Lab",
     "addresses": [
-      "bc1pwn48jp8tp9hnqqlpnlp650vsvh5hem43dru7f9kgme69h6umhy2sgn3slx"
+      "1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK"
     ],
     "tags": ["Godd Lab"],
     "link": ""
@@ -3604,6 +3662,12 @@
     "link": "https://nodecattel.xyz"
   },
   {
+    "id": 164,
+    "name": "BTCLab",
+    "addresses": ["bc1qn7vg7dpcyv2p7wnh5eu8kyp428hf9fpeplva73"],
+    "tags": [
+      "BTCLab",
+      "BTCLab.dev"
     "id": 1012,
     "name": "MoonX",
     "addresses": ["1Hb7iC63bqxtt7X9oYr1VtDTE2Yk5xLQAU"],
@@ -3621,6 +3685,11 @@
     "link": "https://maxipool.io/"
   },
   {
+    "id": 165,
+    "name": "Parasite",
+    "addresses": ["bc1qn7vg7dpcyv2p7wnh5eu8kyp428hf9fpeplva73"],
+    "tags": ["parasite"],
+    "link": "https://parasite.space"
     "id": 1014,
     "name": "jorgefromwalmart",
     "addresses": ["bc1qn7vg7dpcyv2p7wnh5eu8kyp428hf9fpeplva73"],
@@ -3641,7 +3710,17 @@
       "1Hb7iC63bqxtt7X9oYr1VtDTE2Yk5xLQAU",
       "1Hb7iC63bqxtt7X9oYr1VtDTE2Yk5xLQAU"
     ],
-    "tags": ["mining-dutch"],
-    "link": "https://www.mining-dutch.nl/"
+    "tags": ["/Est3lar/", "est3lar", "Est3lar", "EST3LAR"],
+    "link": "https://est3lar.io"
+  },
+  {
+    "id":168,
+    "name": "unknown",
+    "address": [
+      "1Myy4QCu9zWESRHrVZBusN6g9bS5G7L5UK",
+      "bc1qn7vg7dpcyv2p7wnh5eu8kyp428hf9fpeplva73"
+    ],
+    "tag": ["Myy", "mined by bitcoinpool", "Minerpool","kryptex",""]
+    "link": "btc-eu.kryptex.network"
   }
 ]
